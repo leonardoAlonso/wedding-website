@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "mustasurma";
+    src: url("../fonts/mustasurma.ttf");
+}
+
+.title {
+    font-family: "mustasurma", Calibri, Arial;
+}
