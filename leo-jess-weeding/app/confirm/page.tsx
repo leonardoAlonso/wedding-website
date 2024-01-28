@@ -11,8 +11,8 @@ export default function Confirm() {
 
     return (
       <main className="flex min-h-screen flex-col items-center">
-          <div className="w-full flex flex-col justify-center items-center text-pretty">
-            <p className="py-5">
+          <div className="w-full flex flex-col justify-center items-center text-pretty px-4">
+            <p className="py-5 text-center">
               Confirme su asistencia antes del 30 de Mayo para asegurar su lugar en esta reunión intergaláctica.
             </p>
             <iframe

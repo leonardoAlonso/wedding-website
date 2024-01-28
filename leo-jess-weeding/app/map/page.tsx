@@ -2,8 +2,8 @@ export default function Map() {
 
     return (
       <main className="flex min-h-screen flex-col items-center">
-          <div className="w-full flex flex-col justify-center items-center text-pretty">
-            <p className="py-5">
+          <div className="w-full flex flex-col justify-center items-center text-pretty px-4">
+            <p className="py-5 text-center">
               Unete a nosotros en esta celebracion en <b>Salón de Fiestas, Imperio Texcal, Calle Miguel Hidalgo 1, San Diego Texcoco</b>
             </p>
             <iframe
