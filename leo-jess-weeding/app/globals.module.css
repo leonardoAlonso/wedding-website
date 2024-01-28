@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "mustasurma";
+    src: url("./_ui/fonts/mustasurma.ttf");
+  }
+
+.coming_soon{
+    font-family: "mustasurma", Calibri, Arial;
+}

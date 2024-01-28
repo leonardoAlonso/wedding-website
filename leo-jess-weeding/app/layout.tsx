@@ -4,6 +4,7 @@ import {Header} from "./_ui/header/header"
 import { Navbar, LinkItem} from "./_ui/navbar/navbar";
 
 import "./globals.css";
+import { Footer } from "./_ui/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           <Navbar pages={links}/>
         </Header>
         {children}
+        <Footer/>
       </body>
     </html>
   );
