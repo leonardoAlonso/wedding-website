@@ -1,1 +1,1 @@
-# My weeding page
+# My wedding page
