@@ -18,7 +18,8 @@ const config: Config = {
         "punk-s": {
           100: "#46d00f",
           200: "#96ca81"
-        }
+        },
+        "punk-t": "#36172b"
       }
     },
   },

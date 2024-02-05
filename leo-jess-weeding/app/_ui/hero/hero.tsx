@@ -25,7 +25,7 @@ export const Hero = (props: Hero) => {
                     src={props.background_image}
                     layout='fill'
                     objectFit='cover'
-                    objectPosition='center'
+                    objectPosition='top'
                     alt='jessi-leo'
                 />
             </div>
