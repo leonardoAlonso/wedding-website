@@ -18,7 +18,7 @@ export const Header = (props: HeaderContent) => {
     const {couple, date, children} = props
     return (
         <header>
-            <div className="flex flex-col justify-center items-center mt-10">
+            <div className="flex flex-col justify-center items-center mt-5">
                 <Link href="/">
                     <h1 className={`text-center font-normal text-5xl ${styles.title} text-header`}>{couple}</h1>
                 </Link>

@@ -4,5 +4,6 @@
 }
 
 .title {
+    @apply text-punk-p;
     font-family: "mustasurma", Calibri, Arial;
 }

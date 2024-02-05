@@ -1,5 +1,5 @@
 .nav_container{
-    @apply relative mx-4 my-5 px-4 py-4 flex justify-between items-center bg-white
+    @apply relative mx-4 my-1 px-4 py-4 flex justify-between items-center bg-white
 }
 
 .ul_container{

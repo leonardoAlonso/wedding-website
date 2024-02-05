@@ -14,7 +14,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors:{
-        header: "#EA2EA9"
+        "punk-p": "#EA2EA9",
+        "punk-s": {
+          100: "#46d00f",
+          200: "#96ca81"
+        }
       }
     },
   },
