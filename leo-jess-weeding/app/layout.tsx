@@ -29,7 +29,7 @@ export default function RootLayout({
     },
     {
       label: "Menu",
-      url: "confirm"
+      url: "menu"
     },
   ]
   return (

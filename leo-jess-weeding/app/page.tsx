@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <Hero
-        background_image="https://jessi-leo-bucket.s3.us-east-2.amazonaws.com/hero-jessi-leo.jpg"
+        background_image="https://jessi-leo-bucket.s3.us-east-2.amazonaws.com/herobanner-leo-jessi.jpg"
         confirm_url="confirm"
       >
         <div className="mx-20">
@@ -30,12 +30,20 @@ export default function Home() {
         </Card>
         <Card
           imagePosition="left"
-          title="Septiembre-19"
+          title="Septiembre 2019"
           imageUrl="https://jessi-leo-bucket.s3.us-east-2.amazonaws.com/jessi-leo-espejo.jpg"
         >
           <p className="mb-3 font-normal text-punk-t">Durante 2019 Leo dejo su primer trabajo y empezamos juntos un negocio de hamburgesas 🍔 y a inicios de septiembre Leo
           encontro un nuevo trabajo en Jalisco y aun que con mucho temor 😨 este se convirtio en el momento en el que tomamos la decicion de empezar a vivir juntos.</p>
         </Card>
+        <Card
+          imagePosition="right"
+          title="Enero 2024"
+          imageUrl="https://jessi-leo-bucket.s3.us-east-2.amazonaws.com/card+4.jpg">
+          <p className="mb-3 font-normal text-punk-t">A pesar de llevar varios años hablando sobre ello (en serio varios años) para Enero del 2024 al fin se tomo la decicion de
+          dar por iniciados los planes de boda y precisamente en junio 15, 12 años despues. </p>
+        </Card>
+
       </section>
     </main>
   );

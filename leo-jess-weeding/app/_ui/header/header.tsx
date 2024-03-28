@@ -20,9 +20,9 @@ export const Header = (props: HeaderContent) => {
         <header>
             <div className="flex flex-col justify-center items-center mt-5">
                 <Link href="/">
-                    <h1 className={`text-center font-normal text-5xl ${styles.title} text-header`}>{couple}</h1>
+                    <h1 className={`text-center font-normal text-4xl ${styles.title} text-header`}>{couple}</h1>
                 </Link>
-                <p className={`${special_elite.className} text-2xl pt-4`}>{date}</p>
+                <p className={`${special_elite.className} text-xl pt-2`}>{date}</p>
             </div>
             {children}
         </header>
