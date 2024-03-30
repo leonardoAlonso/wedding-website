@@ -31,6 +31,11 @@ export default function RootLayout({
       label: "Menu",
       url: "menu"
     },
+    {
+      label: "🎁 Mesa de regalos",
+      url: "https://www.amazon.com.mx/wedding/registry/IILDTEHNKYJG",
+      target: "_blank"
+    }
   ]
   return (
     <html lang="es">
