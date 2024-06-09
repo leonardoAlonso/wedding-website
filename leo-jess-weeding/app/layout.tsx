@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import {Header} from "./_ui/header/header"
 import { Navbar, LinkItem} from "./_ui/navbar/navbar";
+import Link from "next/link";
 
 import "./globals.css";
 import { Footer } from "./_ui/footer/footer";
@@ -30,18 +31,18 @@ export default function RootLayout({
     {
       label: "Menu",
       url: "menu"
-    },
-    {
-      label: "🎁 Mesa de regalos",
-      url: "https://www.amazon.com.mx/wedding/registry/IILDTEHNKYJG",
-      target: "_blank"
-    }
+    } 
   ]
   return (
     <html lang="es">
       <body className={inter.className}>
         <Header couple="LeO & JeSSI" date="15 / 06 / 2024">
           <Navbar pages={links}/>
+          <ul className="flex justify-center items-center hover:text-punk-p">
+            <li>
+              <Link href="https://www.amazon.com.mx/wedding/registry/IILDTEHNKYJG" target="_blank">🎁 Mesa de regalos</Link>
+            </li>
+          </ul>
         </Header>
         {children}
         <Footer/>
